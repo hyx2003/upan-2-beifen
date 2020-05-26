@@ -1,0 +1,32 @@
+.xong {
+    width: 227px;
+    height: 150px;
+    background: url(./images/2220.jpg) no-repeat;
+    position: relative;
+    z-index: -1;
+}
+.yell {
+    position: absolute;
+    padding-left: 15px;
+    top: 50px;
+    left: 160px;
+    width: 350px;
+    height: 20px;
+    line-height: 20px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+.vis1{
+    width:227px;
+    height:150px;
+    position: absolute;
+    z-index: -1;
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x: hidden;
+}
+#status{
+    z-index: -1;
+}

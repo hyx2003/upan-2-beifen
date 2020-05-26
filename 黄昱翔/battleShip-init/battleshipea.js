@@ -1,21 +1,17 @@
-function jiemian(){
-    let olll = document.getElementById('bzd')
-    olll.href="./gaming.css" 
-};
-function jiemian2(){
-  let oll = document.getElementById('bzd2')
-  olll.href="./battleshipea.js" 
-};
+window.onload = function(){
 let d;
 
 let model = {
 	boardSize: 7,
-	numShips: 3,
-	shipLength: 3,
+	numShips: 6,
+	shipLength: 4,
 	shipsSunk: 0,
 	
 	ships: [
-		{ locations: [0, 0, 0], hits: ["", "", ""] },
+    { locations: [0, 0, 0], hits: ["", "", ""] },
+    { locations: [0, 0, 0], hits: ["", "", ""] },
+    { locations: [0, 0, 0], hits: ["", "", ""] },
+    { locations: [0, 0, 0], hits: ["", "", ""] },
 		{ locations: [0, 0, 0], hits: ["", "", ""] },
 		{ locations: [0, 0, 0], hits: ["", "", ""] }
 	],
@@ -226,3 +222,4 @@ function init() {
 	model.generateShipLocations();
 }
 console.log(newShipLocations);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .dog {
+      width: 227px;
+      height: 150px;
+      background: url(./images/123.jpg) no-repeat;
+    }
+    .yell {
+      position: absolute;
+      padding-left: 15px;
+      top: 50px;
+      left: 160px;
+      width: 350px;
+      height: 20px;
+      line-height: 20px;
+      background-color: antiquewhite;
+      border: 2px solid black;
+    }
+  </style>
+</head>
+<body>
+  <!-- <img class="dogPic" src="./images/doge.jpg" alt="中华田园犬" /> -->
+  <div id="yell" class="yell"></div>
+  <div id="dogPic" class="dog" ></div>
+  <div id="status"></div>
+  <script src="object.js"></script>
+  <button onclick="dog.feed()">喂它！</button>
+  <button onclick="dog.run()">没事走两步！</button>
+  <button onclick="dog.resurrect()">复活吧，我的狗子！</button>
+  <button onclick="dog.wat()">喝水</button>
+</body>
+</html>
